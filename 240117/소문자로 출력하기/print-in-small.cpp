@@ -7,9 +7,9 @@ int main() {
     string s;
     cin>>s;
     for(auto c:s){
-        if(c>='a' && c<'z')
+        if(c>='a' && c<='z')
             cout<<c;
-        if(c>='A' && c<'Z'){
+        else if(c>='A' && c<='Z'){
             char a = c + 32;
             cout<<a;
         }
